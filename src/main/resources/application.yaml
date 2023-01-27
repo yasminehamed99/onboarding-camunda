@@ -1,0 +1,16 @@
+camunda.bpm.admin-user:
+  id: admin
+  password: admin
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/camunda
+    username: root
+    password: 01100164092@yasmine22
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+admin:
+  url: http://localhost:8899/adminConfig/api/lookups/v1/lookupByCodeAndDepth?depth=%s&lookupCode=%s
+
+OTP_VALIDITY: 60000.0
